@@ -9,12 +9,12 @@ class Dog
     @barking = dog_bark
   end
   def bark
-    puts @barking
+    puts "woof!"
   end
 end
 
 lassie = Dog.new
 lassie.name = "Lassie"
-lassie.bark = "woof!"
+
 
 
