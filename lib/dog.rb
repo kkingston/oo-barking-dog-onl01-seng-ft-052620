@@ -9,7 +9,7 @@ class Dog
     @barking = dog_bark
   end
   def bark
-    @barking
+    puts @barking
   end
 end
 
